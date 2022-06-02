@@ -224,10 +224,13 @@
   border-color: #ff5454;
 }
 img {
-  object-fit: contain;
+  object-fit: cover;
   height: 500px;
 }
-.carousel-control-next,
-  .carousel-control-prev /*, .carousel-indicators */ {
-  filter: invert(100%);
+// .carousel-control-next,
+//   .carousel-control-prev /*, .carousel-indicators */ {
+//   filter: invert(100%);
+// }
+main {
+  margin-bottom: 160px !important;
 }
