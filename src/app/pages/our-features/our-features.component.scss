@@ -82,3 +82,36 @@ main {
 .customers {
   margin-bottom: 160px;
 }
+
+body {
+  text-align: center;
+  text-transform: uppercase;
+  // padding: 50px 0;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  // background: #aaa;
+  // margin: 20px 0;
+  // padding: 10px;
+  width: 100%;
+  min-height: 500px;
+  // border: 2px #ccc solid;
+  // color: #fff;
+  flex-direction: column;
+  img {
+    width: 100%;
+  }
+}
+
+.main-1 {
+  background-color: #37abff;
+}
+
+.color-white {
+  color: white;
+}
